@@ -1,0 +1,259 @@
+
+.Navbar{
+    text-align: center;
+    padding: 10px;
+    background-color: black;
+    color: aliceblue;
+}
+span{
+    margin: 35px;
+}
+
+
+*{
+    font-family:  Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0px;
+}
+.jsp-header{
+    color: blue;
+    background-color: aqua;
+    text-align: center;
+
+}
+.jsp-content{
+    color: rgb(255, 0, 0);
+    background-color: lightyellow;
+    text-align: center;
+
+}
+
+.jsp-btn{
+    padding: 10px 20px;
+    color: burlywood;
+    background-color: black;
+    display: block;
+    margin: 10px auto;
+}
+
+/*card details*/
+.card{
+    display: flex;
+}
+
+.tr-card{
+    border: 1px black solid;
+    background-color: rgb(224, 14, 231);
+    height: 350px;
+    width: 300px;
+    margin: 2px 8px;
+}
+.tr-card img{
+    height: 80%;
+    width: 100%;
+
+}
+.tr-name{
+    text-align: center;
+    padding: 10px;
+    background-color: bisque;
+    color: orange;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.ques-block{
+    padding: 8px;
+    background-color: black;
+    color:white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   margin: auto;
+   width: 40%;
+}
+
+.ques{
+    cursor: pointer;
+    background-color: aliceblue;
+    color: black;
+    padding-left: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.answers{
+    padding-left: 10px;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color:blue;
+  
+}
+.btn{
+    background-color: rgb(250, 239, 239);
+    color: rgb(0, 0, 0);
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+ display: flex;
+justify-content: center;
+align-items: center;
+}
+
+/* from detsils*/
+.form,.form2{
+    background-color: blue;
+    padding: 30px;
+    margin: auto;
+}
+.form input{
+    background-color: rgb(239, 245, 245);
+    
+    color: rgb(1, 13, 25);
+    padding: 10px;
+    border: none;
+    outline: none;
+
+
+    display: block;
+    width: 200px;margin: auto;
+    border-radius: 6px;
+}
+.form2 input{
+    background-color: rgb(179, 163, 194);
+    padding: 5px;
+    margin: 20px auto;
+    color: rgb(1, 13, 25);
+    
+    border: none;
+    outline: none;
+    display: block;
+    width: 200px;
+    border-radius: 6px;
+}
+.btnn{
+    cursor: pointer;
+    border-radius: 75%;
+    color: blue;
+    border: none;
+    outline: none;
+    background-color: chartreuse;
+    margin: auto;
+    display: block;
+    height: 40px;
+    width: 100px;
+    font-size: 25px;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+.form5{
+    background-color: rgb(179, 163, 194);
+    padding: 5px;
+    margin: 20px auto;
+    color: rgb(1, 13, 25);  
+    border: none;
+    outline: none;
+    height: 180px;
+    width: 100%;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.form5 input{
+    background-color:rgb(0, 238, 255);
+    padding: 8px;
+    height: 40px;
+    width: 200px;
+    color: black;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+   
+} 
+
+
+.button2{
+        height: 30px;
+        width: 100px;
+        color:olivedrab;
+        font-style: italic;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        border-radius: 75%;
+        font-size: 20px;
+        background-color: aquamarine;       
+}
+.divi{
+    background-color: aqua;
+   width: 70%;
+    padding: 10px;
+    margin: auto;
+}
+/*.divi li{
+    background-color: brown;
+    color: rgb(112, 184, 11);
+    margin: 10px;
+    padding: 10px;
+}*/
+.list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: brown;
+    color: rgb(112, 184, 11);
+    margin: 10px;
+    padding: 10px;
+}
+
+
+.btnnn{
+    height: 35px;
+    width: 90px;
+    background-color: rgb(255, 0, 217);
+    color: rgb(38, 0, 255);
+    font-style: italic;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 35%;
+    font-size: 20px;
+    border: none;
+   
+}
+.btnnn2{
+    height: 35px;
+    width: 90px;
+    background-color: cornflowerblue;
+    color: black;
+    font-style: italic;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 25%;
+    font-size: 20px;
+    border: none;
+}
+.nav-link{
+    margin: 25px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    width: 100%;
+    text-align: center;
+
+}
+.nav-bar{
+    
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+    margin: 40px;
+
+}
+.wel{
+    width: 100%;
+    height: 100%;
+    background-color: blue;
+    color: coral;
+    font-size: 50px;
+    font-weight: bolder;
+    font-style: italic;
+    text-align: center;
+}
+
